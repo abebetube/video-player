@@ -73,7 +73,7 @@
       if (!video) return;
 
       document.getElementById("player-container").innerHTML =
-        `<iframe id="ytplayer" src="https://www.youtube-nocookie.com/embed/${video.videoId}?autoplay=1&enablejsapi=1&rel=0&modestbranding=1" allowfullscreen allow="autoplay"></iframe>`;
+        `<iframe id="ytplayer" src="https://www.youtube-nocookie.com/embed/${video.videoId}?autoplay=1 &enablejsapi=1&rel=0&modestbranding=1" allowfullscreen allow="autoplay"></iframe>`;
 
       setTimeout(() => {
         document.getElementById("player-container").scrollIntoView({ behavior: "smooth" });
@@ -151,7 +151,7 @@
     }
 
     const tag = document.createElement("script");
-    tag.src = "https://www.youtube.com./iframe_api";
+    tag.src = "https://www.you-tube.com./iframe_api";
     document.head.appendChild(tag);
   
   
